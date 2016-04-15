@@ -34,16 +34,16 @@ function send_data(id, state){
 	switch(id)
 	{
 		case 'go_ahead':
-			id_send = 1;
+			id_send = 0;
 			break;
 		case 'go_back':
-			id_send = 2;
+			id_send = 1;
 			break;
 		case 'right':
-			id_send = 3;
+			id_send = 2;
 			break;
 		case 'left':
-			id_send = 4;
+			id_send = 3;
 			break;								
 	}
 
